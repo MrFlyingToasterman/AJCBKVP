@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AJCBK-VP</string>
+    <string name="prompt_email">AJCBK Benutzername</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Anmelden</string>
+    <string name="action_sign_in_short">Anmelden</string>
+    <string name="error_invalid_email">Dieser Name ist uns nicht bekannt</string>
+    <string name="error_invalid_password">Ihr Passwort ist zu kurz</string>
+    <string name="error_incorrect_password">Falsches Passwort!</string>
+    <string name="error_field_required">Dieses Feld muss ausgefüllt sein</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
