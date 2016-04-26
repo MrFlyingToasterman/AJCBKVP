@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         browse();
     }
 
+    public void reload(View view) {
+        browse();
+    }
+
     public void browse() {
         browser = (WebView) findViewById(R.id.webViewIV);
         //browser.setHttpAuthUsernamePassword("http://ajc-bk.dyndns.org:8008", "", LoginActivity.benutzer, "testpasswort");
@@ -32,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         browser.getSettings().setSupportZoom(false);
         browser.setVerticalScrollBarEnabled(false);
         browser.loadUrl("http://ajc-bk.dyndns.org:8008/Vertretung-Online/");
+        //Parse htmlcode
         browser.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
