@@ -84,14 +84,16 @@
                     android:layout_height="wrap_content"
                     android:text="Diese Woche"
                     android:id="@+id/radioButton"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:enabled="true" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Nächste Woche"
                     android:id="@+id/radioButton2"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:enabled="false" />
             </RadioGroup>
 
         </LinearLayout>
