@@ -1,14 +1,10 @@
 package dmusiolik.ajcbk_vp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.webkit.HttpAuthHandler;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -29,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void browse() {
         browser = (WebView) findViewById(R.id.webViewIV);
-        //browser.setHttpAuthUsernamePassword("http://ajc-bk.dyndns.org:8008", "", LoginActivity.benutzer, "testpasswort");
         browser.getSettings().setJavaScriptEnabled(true);
         browser.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
         browser.getSettings().setSupportMultipleWindows(false);

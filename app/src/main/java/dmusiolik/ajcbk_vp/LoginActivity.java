@@ -86,10 +86,7 @@ public class LoginActivity extends AppCompatActivity {
             }
 
         }
-            //Zugangsdaten speichern
-
-
-            //Benutzername und Passwort einlesen und weitergeben
+            //Benutzername und Passwort einlesen, speichern und weitergeben
             benutzer = loginbox.getText().toString();
             writeToPreference(benutzer, "username");
             passwort = passbox.getText().toString();
