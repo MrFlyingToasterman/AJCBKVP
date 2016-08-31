@@ -1,11 +1,17 @@
 package dmusiolik.ajcbk_vp;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -97,4 +103,36 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(myIntent);
             finish();
         }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.about:
+                //Über
+                AlertDialog alertDialog;
+                alertDialog = new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK).create();
+                alertDialog.setTitle("Über");
+                alertDialog.setMessage("Dies ist Freie Software unter der GPLv3\nErstellt durch Darius Musiolik 2k16\nhttps://www.GitHub.com/MrFlyingToasterman");
+                alertDialog.show();
+                return true;
+            case R.id.make_mrpropper:
+                //Fehlermeldung
+                AlertDialog alertDialog1;
+                alertDialog1 = new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK).create();
+                alertDialog1.setTitle("Achtung!");
+                alertDialog1.setMessage("Konnte Browsercache nicht löschen!\nDer Browser wurde noch nicht geladen.");
+                alertDialog1.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 }

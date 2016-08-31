@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="dmusiolik.ajcbk_vp.LoginActivity">
+    tools:context="dmusiolik.ajcbk_vp.LoginActivity"
+    android:background="#424242">
 
     <!-- Login progress -->
     <ProgressBar
@@ -72,7 +73,8 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
-                android:onClick="anmeldung" />
+                android:onClick="anmeldung"
+                android:background="#0099cc" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -85,7 +87,8 @@
                     android:text="Diese Woche"
                     android:id="@+id/radioButton"
                     android:checked="true"
-                    android:enabled="true" />
+                    android:enabled="true"
+                    android:textColor="#ffffff" />
 
                 <RadioButton
                     android:layout_width="match_parent"
@@ -93,7 +96,8 @@
                     android:text="Nächste Woche"
                     android:id="@+id/radioButton2"
                     android:checked="false"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:textColor="#919191" />
             </RadioGroup>
 
         </LinearLayout>
