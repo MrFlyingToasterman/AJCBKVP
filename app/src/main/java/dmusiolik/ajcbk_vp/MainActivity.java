@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void reload(View view) {
         browse();
+        displaytoast("Neues Datenblatt geladen.");
     }
 
     public void browse() {
@@ -80,11 +81,17 @@ public class MainActivity extends AppCompatActivity {
                 WebView brow = (WebView) findViewById(R.id.webViewIV);
                 brow.clearCache(true);
                 //Bereit Benachrichtigung
-                Toast.makeText(this, "Erledigt", Toast.LENGTH_SHORT).show();
+                displaytoast("Erledigt!");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    //Toast funktion
+    public void displaytoast(String msg) {
+        Toast.makeText(MainActivity.this,
+                msg, Toast.LENGTH_SHORT).show();
     }
 
 }
