@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dmusiolik.ajcbk_vp"
-    android:versionCode="1"
-    android:versionName="2.0" >
+    android:versionCode="2"
+    android:versionName="2.1" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -19,7 +19,9 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="dmusiolik.ajcbk_vp.LoginActivity"
-            android:label="@string/app_name" >
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +30,10 @@
         </activity>
         <activity
             android:name="dmusiolik.ajcbk_vp.MainActivity"
-            android:label="Vertretungsplan" />
+            android:configChanges="orientation"
+            android:label="Vertretungsplan"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
