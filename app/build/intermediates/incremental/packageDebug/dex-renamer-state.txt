@@ -1,0 +1,7 @@
+#Mon Dec 04 08:43:18 CET 2017
+base.0=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d4732a5965bfdb563f747724887b24929b52cdaf
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a63abfa7983e128acf78036f4d30fa5e516bde0/classes.dex
+base.1=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a63abfa7983e128acf78036f4d30fa5e516bde0
+file.0=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d4732a5965bfdb563f747724887b24929b52cdaf/classes.dex

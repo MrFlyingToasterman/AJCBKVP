@@ -9,9 +9,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dmusiolik.ajcbk_vp.LoginActivity"
-    android:background="#424242">
+    android:background="#424242"
+    android:weightSum="1">
 
     <!-- Login progress -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Einloggen:\n"
+        android:textSize="30sp" />
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -23,7 +31,8 @@
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="376dp"
+        android:layout_weight="0.77">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -81,25 +90,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="9.56">
 
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Diese Woche"
-                    android:id="@+id/radioButton"
-                    android:checked="true"
-                    android:enabled="true"
-                    android:textColor="#ffffff" />
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nächste Woche"
-                    android:id="@+id/radioButton2"
-                    android:checked="false"
-                    android:enabled="false"
-                    android:textColor="#919191" />
             </RadioGroup>
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="V 2.4" />
 </LinearLayout>

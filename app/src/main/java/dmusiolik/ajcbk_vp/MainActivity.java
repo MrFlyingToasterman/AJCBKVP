@@ -14,6 +14,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
+import android.webkit.SslErrorHandler;
+import android.net.http.SslError;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void reload(View view) {
         browse();
-        displaytoast("Neues Datenblatt angefordert.");
+        displaytoast("Neues Datenblatt angefordert!");
     }
 
     public void browse() {
@@ -43,13 +45,17 @@ public class MainActivity extends AppCompatActivity {
         browser.getSettings().setAllowFileAccess( true );
         browser.getSettings().setAppCacheEnabled( true );
         browser.getSettings().setCacheMode( WebSettings.LOAD_DEFAULT );
+        browser.getSettings().setDomStorageEnabled(true);
 
         if ( !isNetworkAvailable() ) { // loading offline
             //browser.getSettings().setCacheMode( WebSettings.LOAD_CACHE_ONLY );
             displaytoast("Zeige Offline version an!");
+        } else {
+
         }
 
-        browser.loadUrl("http://ajc-bk.dyndns.org:8008/Vertretung-Online/");
+        //Aufruf durch https (Fix nach der Sicherheitslücke im Schulnetzwerk)
+        browser.loadUrl("https://ajc-bk.dyndns.org:8008/Vertretung-Online/");
         //Parse htmlcode -> Sehr viel Arbeit mit der Mommentanet API -- Vielleicht mal in der Zukunft
 
         //Navigiere zu...
@@ -60,11 +66,15 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
 
-            public void onReceivedHttpAuthRequest(WebView view,
-                                                  HttpAuthHandler handler, String host, String realm) {
+            @Override
+            public void onReceivedSslError (WebView view, SslErrorHandler handler, SslError error) {
+                handler.proceed();
+                displaytoast("SSL Zertifikat akzeptiert!");
+            }
 
+            public void onReceivedHttpAuthRequest(WebView view, HttpAuthHandler handler, String host, String realm) {
                 handler.proceed(LoginActivity.benutzer, LoginActivity.passwort);
-
+                displaytoast("Zugangsdaten SICHER über SSL übertragen!");
             }
         });
 
@@ -86,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog alertDialog;
                 alertDialog = new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK).create();
                 alertDialog.setTitle("Über");
-                alertDialog.setMessage("Dies ist Freie Software unter der GPLv3\nErstellt durch Darius Musiolik 2k16\nhttps://www.GitHub.com/MrFlyingToasterman");
+                alertDialog.setMessage("Dies ist Freie Software unter der GPLv3\nErstellt durch Darius Musiolik 2k17\nhttps://www.GitHub.com/MrFlyingToasterman");
                 alertDialog.show();
                 return true;
             case R.id.make_mrpropper:

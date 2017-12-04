@@ -2,72 +2,200 @@
 <items version="2" >
 
     <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_8267ecb5ba5aaf3383838231338b22ca7418f2aa/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.0.0_1464a12d2a8b44ebac1a1e81a09f1568ef7d4c96/classes.dex" />
     </item>
     <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_60883925efe7764673f5193108b7a0a10317d42e/classes.dex" />
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/480b3b4383cd2c954e6c97082b14fe7f677ac32f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_e87d90407a7052c1c0dbe95f26d070171ead3541.jar" />
     </item>
     <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c76e809cb22a9d34c991333c7c7f2e7b876dee38">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d4732a5965bfdb563f747724887b24929b52cdaf/classes.dex" />
-    </item>
-    <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_7f6f07a5c99cc5b6811ddb4dbabe2b772ecffba4/classes.dex" />
-    </item>
-    <item
+        is-multidex="true"
         jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="f64a617440acea7ba1ccb55f9829ad50e3a77a7d">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1a63abfa7983e128acf78036f4d30fa5e516bde0/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="3ed91c6cfdad3c2b879e843a3bf6525f4e272452">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a63abfa7983e128acf78036f4d30fa5e516bde0/classes.dex" />
     </item>
     <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/0f4c27abd4c3cbe3ec7ab7832b5dc1aa91db449f/output/jars/classes.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_e545db9a792c46069b1a7b909365090e77242d13/classes.dex" />
-    </item>
-    <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_42a585d4f118b045132c894de989467af98a418b/classes.dex" />
-    </item>
-    <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_c377c6154bfd40167ca806964d15302ee7d832d7/classes.dex" />
-    </item>
-    <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
+        optimize="true"
+        revision="25.0.0"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_aa286285dd7a94f0aeee7d0267af82dc544c2063/classes.dex" />
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_694028ea368c361b3be67e1f186828d2c4e5fb42/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0_1464a12d2a8b44ebac1a1e81a09f1568ef7d4c96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/1294957c5e764e346421b33f8b631e2c2fd3a511/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_254364607f767eb008e1fba19c99144bb4127e58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_54aa32cdcbf8bb037880859683e2ce289abfa495.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/1294957c5e764e346421b33f8b631e2c2fd3a511/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_254364607f767eb008e1fba19c99144bb4127e58/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/0f4c27abd4c3cbe3ec7ab7832b5dc1aa91db449f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_694028ea368c361b3be67e1f186828d2c4e5fb42.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_54aa32cdcbf8bb037880859683e2ce289abfa495/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/c84fd6c38399fe762cd89764f0af8ffa9aebe945/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_baf67256de46717116682e38304c25445fa0a045.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/okio-1.0.0_c73230eb9d73f4eb80cee9a5a3982e1d886c235a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/991eeddcc1a17d3a80f2b9543344ea0c54082883/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_d73d984e95f8be281664ee6011cf0368b1981458.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/991eeddcc1a17d3a80f2b9543344ea0c54082883/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d73d984e95f8be281664ee6011cf0368b1981458/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/c84fd6c38399fe762cd89764f0af8ffa9aebe945/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_baf67256de46717116682e38304c25445fa0a045/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.0.0_c73230eb9d73f4eb80cee9a5a3982e1d886c235a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dmusiolik/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_0fb45e07786e4f39b8b70933b54c7ab6baab1106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/pre-dexed/debug/classes_cb69e61e7fcb436e634dd8b8e08003fd70fe3e85.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d4732a5965bfdb563f747724887b24929b52cdaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb69e61e7fcb436e634dd8b8e08003fd70fe3e85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/crypthome/dmusiolik/.android/build-cache/480b3b4383cd2c954e6c97082b14fe7f677ac32f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e87d90407a7052c1c0dbe95f26d070171ead3541/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/dmusiolik/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="true"
-        revision="23.0.3"
+        optimize="true"
+        revision="25.0.0"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
         <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_0fb45e07786e4f39b8b70933b54c7ab6baab1106/classes.dex" />
     </item>

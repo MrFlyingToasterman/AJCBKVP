@@ -27,23 +27,11 @@ ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/Andr
 		ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml:7:22-73
 application
 ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml:10:5-33:19
-MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.1] /crypthome/dmusiolik/.android/build-cache/991eeddcc1a17d3a80f2b9543344ea0c54082883/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/.android/build-cache/1294957c5e764e346421b33f8b631e2c2fd3a511/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/.android/build-cache/c84fd6c38399fe762cd89764f0af8ffa9aebe945/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/.android/build-cache/0f4c27abd4c3cbe3ec7ab7832b5dc1aa91db449f/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -86,26 +74,14 @@ ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/Andr
 		ADDED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml:28:13-41
 uses-sdk
 INJECTED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.1] /crypthome/dmusiolik/.android/build-cache/991eeddcc1a17d3a80f2b9543344ea0c54082883/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/.android/build-cache/1294957c5e764e346421b33f8b631e2c2fd3a511/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /crypthome/dmusiolik/.android/build-cache/c84fd6c38399fe762cd89764f0af8ffa9aebe945/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /crypthome/dmusiolik/.android/build-cache/0f4c27abd4c3cbe3ec7ab7832b5dc1aa91db449f/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] /crypthome/dmusiolik/.android/build-cache/480b3b4383cd2c954e6c97082b14fe7f677ac32f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /crypthome/dmusiolik/.android/build-cache/cea7f2ee48d3035de41c386b15f37101cdc84ae2/output/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /crypthome/dmusiolik/.android/build-cache/1294957c5e764e346421b33f8b631e2c2fd3a511/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml
 		INJECTED from /crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/src/main/AndroidManifest.xml

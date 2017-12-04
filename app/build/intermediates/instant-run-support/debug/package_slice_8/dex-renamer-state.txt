@@ -1,0 +1,4 @@
+#Mon Dec 04 08:31:25 CET 2017
+base.0=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+renamed.0=classes.dex
+file.0=/crypthome/dmusiolik/AndroidStudioProjects/AJCBK-VP/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
